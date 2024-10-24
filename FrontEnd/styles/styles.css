@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.815);
+}
+/* Estilo para el encabezado */
+header {
+  background-color: gray;
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+header iconify-icon{
+  font-size: 40px;
+}
+/* Estilo General para el contenido */
+main {
+  background-color:gray;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  border-radius: 10px;
+}
+/* Div contenedor de las funcionalidades de buscar */
+.buscarPorcodigo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+/* Estilos barra de buscar */
+.barraBuscar{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.buscarPorcodigo input{
+  border: none;
+  outline: none;
+  width: 70%;
+  height: 30px;
+}
+.btnCodIsbn{
+  background-color: white;
+  width: 10%;
+  height: 30px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 10px 0px 0px 10px;
+  cursor: pointer;
+}
+/* Estilos para el filtro */  /* Ocultoooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+.btnFiltro{
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+  width: 10%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  font-size: 25px;
+  cursor: pointer;
+}
+.categoria{
+  background-color: white;
+  top: 40px;
+  border-radius: 10px;
+  display: grid;
+  width: 90%;
+  height: 15vh;
+  grid-template-areas:"ti ti ti"
+                      "op1 op2 op3"
+                      "bt bt bt";
+  gap: 10px;
+  display: none;
+  transition: all 0.8s;
+}
+.ti{
+  display: grid;
+  grid-area: ti;
+  place-content: center;
+}
+.op1{
+  grid-area: op1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.op2{
+  grid-area: op2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.op3{
+  grid-area: op3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.op1 input[type="checkbox"],.op2 input[type="checkbox"],.op3 input[type="checkbox"] {
+  transform: scale(0.5); /* Disminuye el tamaño del checkbox en un 50% */
+}
+.bt{
+  display: grid;
+  grid-area: bt;
+  place-content: center;
+  border-radius: 15px;
+}
+.bt button{
+  width: 120px;
+}
+/* Estilos Ver todos los libros */
+.verTodos{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+.todos{
+  width: 18%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.todos img{
+  border-radius: 10px;
+  box-shadow: 8px -1px 3px 1px rgba(255, 255, 255, 0.562);
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+
+/* Estilo div opciones */
+.contentOpciones{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  color: black;
+}
+.opciones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+.detalleLibro,.crear, .eliminar{
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  width:500px;
+  height: auto;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 1px black;
+  margin-inline: 100px;
+  gap: 5px;
+  color: black;
+}
+.detalleLibro input{
+  width:60px;
+}
+
+
+.detalleLibro button,.crear button{
+  width: 80px;
+}
+.rtaOpciones{
+  text-align: center;
+  color: white;
+}
+
+
+.crear form div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.crear input{
+  width: 100%;
+}
+#rtaDetalle{
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 10px 120px;
+  color: black;
+  gap: 10px;
+}
+#rtaDetalle img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.crear{
+  border: solid;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crear form{
+  width: 70%;
+}
+.actualizar button{
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}

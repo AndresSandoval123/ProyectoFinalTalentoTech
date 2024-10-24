@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc79"
+  },
+  "isbn": "1",
+  "titulo": "El Principito",
+  "autor": "Antoine de Saint-Exupéry",
+  "caratula": "https://upload.wikimedia.org/wikipedia/commons/1/1c/El_principito.jpg",
+  "fecEdicion": "1943",
+  "numPaginas": 96,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "La historia de un joven príncipe que viaja por diferentes planetas.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc7a"
+  },
+  "isbn": "2",
+  "titulo": "Donde Viven los Monstruos",
+  "autor": "Maurice Sendak",
+  "caratula": "https://image.cdn1.buscalibre.com/5b5861228863b5ce738b4568.RS500x500.jpg",
+  "fecEdicion": "1963",
+  "numPaginas": 48,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "Un niño encuentra una tierra habitada por monstruos.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc7b"
+  },
+  "isbn": "3",
+  "titulo": "Harry Potter y la Piedra Filosofal",
+  "autor": "J.K. Rowling",
+  "caratula": "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg",
+  "fecEdicion": "1997",
+  "numPaginas": 223,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "Un joven mago descubre su identidad y enfrenta aventuras en Hogwarts.",
+  "tipoEjemplar": "físico",
+  "tema": "Fantasía",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc7c"
+  },
+  "isbn": "4",
+  "titulo": "El Jardín Secreto",
+  "autor": "Frances Hodgson Burnett",
+  "caratula": "https://plazayjanescolombia.com/wp-content/uploads/2023/09/641852456c84055f5873f0f8_k1nljTzoyCZ7XRaN-749d3xuG1bEb-cv0upB4jlpTbU.jpeg",
+  "fecEdicion": "1911",
+  "numPaginas": 150,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "Una niña descubre un jardín secreto que transforma su vida.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc7d"
+  },
+  "isbn": "5",
+  "titulo": "Matilda",
+  "autor": "Roald Dahl",
+  "caratula": "https://imagessl3.casadellibro.com/a/l/s5/73/9788420482873.webp",
+  "fecEdicion": "1988",
+  "numPaginas": 240,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "Una niña superdotada usa sus habilidades para cambiar su vida.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc7e"
+  },
+  "isbn": "6",
+  "titulo": "La Oruga Muy Hambrienta",
+  "autor": "Eric Carle",
+  "caratula": "https://images.cdn3.buscalibre.com/fit-in/360x360/1e/29/1e2959ba175c6adbea251cf8573fbd2f.jpg",
+  "fecEdicion": "1969",
+  "numPaginas": 26,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "La historia de una oruga que se convierte en mariposa.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc7f"
+  },
+  "isbn": "7",
+  "titulo": "El Gato en el Sombrero",
+  "autor": "Dr. Seuss",
+  "caratula": "https://elloboilustrado.es/wp-content/uploads/2018/06/el-gato-en-el-sombrero-Dr-Seuss.jpg",
+  "fecEdicion": "1957",
+  "numPaginas": 61,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "Un gato travieso trae diversión a dos niños aburridos.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc80"
+  },
+  "isbn": "8",
+  "titulo": "Charlotte's Web",
+  "autor": "E.B. White",
+  "caratula": "https://images.cdn2.buscalibre.com/fit-in/360x360/ab/77/ab771cd2d259d8c50d207e188a9ec3fe.jpg",
+  "fecEdicion": "1952",
+  "numPaginas": 192,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "La amistad entre una cerdita y una araña que la ayuda a sobrevivir.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "670381e953d25d1102a9cc81"
+  },
+  "isbn": "9",
+  "titulo": "La Casa de la Pradera",
+  "autor": "Laura Ingalls Wilder",
+  "caratula": "https://pictures.abebooks.com/isbn/9780833573445-es.jpg",
+  "fecEdicion": "1935",
+  "numPaginas": 320,
+  "cantEjemplaresDisponibles": 5,
+  "resumen": "Las aventuras de una familia pionera en el oeste americano.",
+  "tipoEjemplar": "físico",
+  "tema": "Aventura",
+  "ubicacion": "Biblioteca Central"
+},
+{
+  "_id": {
+    "$oid": "6704af177ddac7d11ef78f3a"
+  },
+  "isbn": "10",
+  "titulo": "Dragon Ball z",
+  "autor": "Andres Sandoval",
+  "caratula": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/35e4ac6339f5fdcc164160a5755790cd.jpg",
+  "fecEdicion": "",
+  "numPaginas": null,
+  "cantEjemplaresDisponibles": null,
+  "resumen": "",
+  "tipoEjemplar": "",
+  "tema": "",
+  "ubicacion": "",
+  "__v": 0
+}]

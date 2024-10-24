@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <iconify-icon icon="fluent-emoji:books"></iconify-icon>
+    <h1>Biblioteca</h1>
+    <iconify-icon icon="fluent-emoji:books"></iconify-icon>
+  </header>
+
+
+  <main>
+
+    <div class="buscarPorcodigo">
+      <div class="barraBuscar">
+        <button id="btnCodIsbn" class="btnCodIsbn"><iconify-icon icon="ic:sharp-search"></iconify-icon></button>
+        <input id="codIsbn" type="text" placeholder="Codigo">
+        <button id="btnFiltro" class="btnFiltro"><iconify-icon icon="mage:filter"></iconify-icon></button>
+      </div>
+      <div class="categoria">
+        <div class="ti">
+          <p>Filtrar por categoria</p>
+        </div>
+
+        <div class="op1">
+          <label for="novela">Novela</label>
+          <input type="checkbox" name="novela" id="novela">
+        </div>
+
+        <div class="op2">
+          <label for="thriller">Thriller</label>
+          <input type="checkbox" name="thriller" id="thriller">
+        </div>
+
+        <div class="op3">
+          <label for="ciencia">Ciencia ficción</label>
+          <input type="checkbox" name="ciencia" id="ciencia">
+        </div>
+
+        <div class="bt">
+          <button id="btnCategoria">Aplicar</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="libros">
+
+      <!-- Div para mostrar todos los libros -->
+      <div class="verTodos" id="todos">
+      </div>
+    </div>
+    <div class="actualizar">
+      <button id="btnActualizar"> actualizar Libreria </button>
+    </div>
+    <div class="contentOpciones">
+      <div class="opciones">
+        <div class="detalleLibro">
+          <p>Consultar Detalle del libro</p>
+          <input id="codigo" type="text" placeholder="Codigo">
+          <button id="btndetalleLibro">Consultar</button>
+          <button id="btnLimpiar">Limpiar</button>
+        </div>
+        
+
+        <div class="eliminar">
+          <p>Digita el ISBN del libro a eliminar</p>
+          <input id="eliminar" type="text" placeholder="ISBN">
+          <button id="btnEliminar">Eliminar</button>
+          <div id="rtaEliminar"></div>
+        </div>
+      </div>
+      <div id="rtaOpciones" class="rtaOpciones">
+      </div>
+
+    </div>
+    <div id="rtaDetalle"></div>
+    <div class="crear">
+      <p>Crear Libro</p>
+      <form id="formCrearLibro" method="post">
+        <div>
+          <label for="isbn">ISBN</label>
+          <input type="text" name="isbn" required>
+        </div>
+        <div>
+          <label for="titulo">Título</label>
+          <input type="text" name="titulo" required>
+        </div>
+        <div>
+          <label for="autor">Autor</label>
+          <input type="text" name="autor" required>
+        </div>
+        <div>
+          <label for="caratula">Url Imagen</label>
+          <input type="text" name="caratula" required>
+        </div>
+        <div>
+          <label for="fecEdicion">Fecha de edición</label>
+          <input type="text" name="fecEdicion" required>
+        </div>
+        <div>
+          <label for="numPaginas">Número de páginas</label>
+          <input type="number" name="numPaginas" required>
+        </div>
+        <div>
+          <label for="cantEjemplaresDisponibles">Número de disponibles</label>
+          <input type="number" name="cantEjemplaresDisponibles" required>
+        </div>
+        <div>
+          <label for="resumen">Resumen</label>
+          <input type="text" name="resumen" required>
+        </div>
+        <div>
+          <label for="tipoEjemplar">Tipo de ejemplar</label>
+          <input type="text" name="tipoEjemplar" required>
+        </div>
+        <div>
+          <label for="tema">Tema</label>
+          <input type="text" name="tema" required>
+        </div>
+        <div>
+          <label for="ubicacion">Ubicación</label>
+          <input type="text" name="ubicacion" required>
+        </div>
+      </form>
+      
+      <button id="btncrear">Crear</button>
+      <div id="rtaCrear"></div> <!-- Para mostrar la respuesta del servidor -->
+    </div>
+    
+    
+
+
+  </main>
+  <script src="../script/app.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</body>
+
+</html>
